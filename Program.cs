@@ -49,6 +49,9 @@ namespace Sudoku_Solver
             // Print the best possible grid of certain values
             Console.WriteLine("Best Possible Grid:\n");
             example.PrintGrid();
+            
+            // Pause the program to let user see result
+            Console.ReadKey();
         }
     }
 }
